@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'OpenSans', sans-serif;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.container {
+    display: block;
+    width: 1230px;
+    margin: 0 auto;
+    padding-top: 40px;
+    z-index: 2;
+}
+
+.logo-block {
+    margin-bottom: 100px;
+}
+
+.logo-image {
+    width: 50%;
+    float: left;
+}
+
+.logo-description {
+    width: 50%;
+    float: left;
+}
+
+.logo-description p {
+    width: 70%;
+    color: #100051;
+    line-height: 25px;
+    padding-top: 20px;
+}
+
+.bg-decoration {
+    position: absolute;
+    left: 0;
+    top: 85px;
+    z-index: -1;
+}
+
+.title {
+    text-align: center;
+    font-size: 41px;
+    font-weight: 600;
+}
+
+.description {
+    width: 24%;
+    font-size: 16px;
+    text-align: center;
+    margin-left: 38%;
+    line-height: 25px;
+}
+
+.see {
+    background-color: #00B1EF;
+}
+
+.see .title {
+    color: #ffffff;
+
+}
+
+.see .description {
+    color: #ffffff;
+}
+
+.list {
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-top: 100px;
+}
+
+.item {
+    display: block;
+    position: relative;
+    width: 25%;
+    float: left;
+    height: 460px;
+}
+
+.item h2 {
+    font-weight: 800;
+    color: #100051;
+    padding: 0;
+    margin: 0;
+}
+
+.item p {
+    color: #100051;
+    font-size: 15px;
+    line-height: 25px;
+    width: 90%;
+}
+
+.hear .title {
+    color: #12AEED;
+}
+
+.hear .description {
+    color: #12AEED;
+}
+
+.relax {
+    background-color: #00B1EF;
+}
+
+.relax .title {
+    color: #ffffff;
+}
+
+.relax .description {
+    color: #ffffff;
+    width: 38%;
+    margin-left: 31%;
+}
+
+.enjoy .title {
+    color: #100051;
+
+}
+
+.enjoy .description {
+    color: #100051;
+    width: 38%;
+    margin-left: 31%;
+}
+
+.blabla {
+    width: 1170px;
+    padding-top: 38px;
+    margin: 0 auto;
+}
+.blabla h1 {
+    color: #100051;
+}
+
+.films{
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
